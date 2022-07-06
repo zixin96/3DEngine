@@ -1,10 +1,26 @@
 [
     {
-        "name": "vulkan",
+    "name": "vulkan",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/KhronosGroup/Vulkan-Headers.git",
+        "branch": "sdk-1.3.216"
+    }
+    },
+    {
+        "name": "volk",
         "source": {
             "type": "git",
-            "url": "https://github.com/KhronosGroup/Vulkan-Headers.git",
-            "sha1": "2c823b7f27590ec0a489f7fbe14b154e13fa5cfb"
+            "url": "https://github.com/zeux/volk.git",
+            "branch": "sdk-1.3.216"
+        }
+    },
+    {
+        "name": "glslang",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/KhronosGroup/glslang.git",
+            "branch": "sdk-1.3.216"
         }
     },
     {
@@ -60,7 +76,39 @@
         "source": {
             "type": "git",
             "url": "https://github.com/glfw/glfw.git",
-            "sha1": "da6713cd096a40a4512f468b34c189017e73f987"
+            "revision": "3.3.7"
+        }
+    },
+    {
+        "name": "glm",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/g-truc/glm.git",
+            "revision": "0.9.9.8"
+        }
+    },
+    {
+        "name": "stb",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nothings/stb.git",
+            "sha1": "af1a5bc352164740c1cc1354942b1c6b72eacb8a"
+        }
+    },
+    {
+        "name": "imgui",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ocornut/imgui.git",
+            "revision": "v1.88"
+        }
+    },
+    {
+        "name": "assimp",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/assimp/assimp.git",
+            "revision": "v5.2.4"
         }
     }
 ]
