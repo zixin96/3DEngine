@@ -20,3 +20,6 @@ Copy `vendor/src/bistro/PatchedMaterials/XXX.mtl` into `vendor/src/bistro/Exteri
 
 
 
+
+
+Do I need glad for vulkan? 
